@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1,100; 1,200; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800; 1.900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(Imagenes/bg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-size: 85px;
+    color: #fffdfc;
+    text-transform:uppercase;
+    margin-bottom: 20px;
+}
+
+.header-txt p {
+    color: #bebebe;
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 45px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 12px 45px;
+    border: 1px solid #fffdfc;
+    color: #fffdfc;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-1:hover {
+    color: #1b293a;
+    background-color: #fffdfc;
+}
+
+.general{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1 {
+    background-image: url(Imagenes/r1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding:  160px 55px;
+}
+
+.general-2 {
+    background-image: url(Imagenes/r2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding:  160px 55px;
+}
+
+.general-3 {
+    background-image: url(Imagenes/r3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 160px 55px;
+}
+
+.general-4 {
+    background-image: url(Imagenes/r4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 160px 55px;
+}
+
+.general-5 {
+    background-image: url(Imagenes/r5.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 160px 55px;
+}
+
+.general-6 {
+    background-image: url(Imagenes/r6.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 160px 55px;
+}
+
+h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #1b293a;
+}
+  
+.txt h3{
+    font-size: 18px;
+    color: #fffdfc;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.txt p {
+    color: #ebebeb;
+    font-size: 16px;
+}
+
+.info-1 {
+    padding: 250px 0;
+    background-image: url(Imagenes/bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.info-content{
+    text-align: center;
+}
+
+.info-content h2, span{
+    color: #fffdfc;
+}
+
+.info-cicle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.circle-txt {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.circle-1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fffdfc;
+    border-radius: 50%;
+    padding-top: 35px;
+}
+
+.circle-1 h3{
+    color: #ebebeb;
+    font-size: 16px;
+}
+
+.circle-txt p{
+    color: #fffdfc;
+    margin-top: 25px;
+}
+
+.info-2 {
+    padding: 250px 0;
+    background-image: url(Imagenes/bg3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.testi{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.testi-left{
+    width: 50%;
+    padding-right: 25px;
+}
+
+.testi-right{
+    width: 50%;
+    padding-left: 35px;
+}
+
+.testi-txt{
+    margin-bottom: 25px;
+}
+
+.testi-txt img{
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.testi-txt h3 {
+    font-size: 20px;
+    color: #fffdfc;
+}
+
+.testi-txt p{
+    color: #ebebeb;
+    font-size: 16px;
+}
+
+.footer {
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.footer-txt{
+    margin-top: 100px;
+    border-top: 1px solid #b4b4b47e;
+    padding: 20px 0;
+}
+
+.footer-txt p{
+    color: #1b292a;
+    font-size: 16px;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: #1b292a;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+    }
+
+    .header-txt p {
+        padding: 0;
+    }
+
+    .general {
+        padding: 30px 30px 0 30px;
+    }
+
+    .general-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .general-1,
+    .general-2,
+    .general-3,
+    .general-4,
+    .general-5,
+    .general-6 {
+        height: 350px;
+        padding: 100px;
+        margin-top: 10px;
+    }
+
+    .info-1{
+        padding: 200px 30px;
+        background-size: cover;
+        margin-top: -110px;
+    }
+
+    .info-cicle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circle-txt {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .g2 {
+        margin-top: -120px;
+    }
+
+    .info-2 {
+        padding: 200px 30px;
+        background-size: cover;
+        margin-top: -180px;
+    }
+
+    .testi {
+        flex-direction: column;
+    }
+
+    .testi-left {
+        width: 100%;
+    }
+
+    .testi-right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .footer {
+        padding: 0;
+        margin-top: -140px;
+    }
+
+    .footer-txt {
+        margin-top: 30px;
+    }
+}
